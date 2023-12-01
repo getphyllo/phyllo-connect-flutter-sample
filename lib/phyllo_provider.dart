@@ -72,7 +72,24 @@ class PhylloProvider extends DefaultChangeNotifier {
       'workPlatformId': workPlatformId,
     };
 
-   
+    debugPrint("Environment = ${config['environment']}");
+
+    //  await _phylloConnect.initialize({
+    //   'clientDisplayName': 'Bintango',
+    //   'environment': _phylloEnvironment.environment.name,
+    //   'userId': _userId!,
+    //   'token': _token!,
+    //   'workPlatformId': workPlatformId,
+    //   'language': 'en'
+    // });
+    // PhylloConfig config = PhylloConfig(
+    //   clientDisplayName: clientDisplayName,
+    //   environment: Configs.environment,
+    //   userId: _userId!,
+    //   token: _token!,
+    //   workPlatformId: workPlatformId,
+    // );
+
     await _phylloConnect.initialize(config);
     _phylloConnect.open();
 

@@ -15,16 +15,6 @@ class _MyHomePageState extends State<MyHomePage> {
   static const String instagramId = '9bb8913b-ddd9-430b-a66a-d74d846e6c66';
   static const String youtubeId = '14d9ddf5-51c6-415e-bde6-f8ed36ad7054';
 
-  // Future<void> _onChangedEnvironment() async {
-  //   var provider = context.read<PhylloProvider>();
-  //   Environment? environment =
-  //       await showEnvironmentChangeDialog(context, provider.phylloEnvironment);
-
-  //   if (environment != null) {
-  //     provider.onChangedEnvironment(environment);
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Consumer<PhylloProvider>(
@@ -66,21 +56,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       const SizedBox(height: 10),
                       _buildExistingUserCheckbox(),
                     ],
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.bottomRight,
-                  child: GestureDetector(
-                    child: SizedBox(
-                      height: 100,
-                      width: 100,
-                      child: Container(
-                        height: 100,
-                        width: 100,
-                        color: Colors.transparent,
-                      ),
-                    ),
-                    // onLongPress: _onChangedEnvironment,
                   ),
                 ),
                 Loader.loadingWithBackground(phylloProvider.isLoading),

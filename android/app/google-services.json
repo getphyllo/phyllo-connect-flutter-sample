@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127177212994",
+    "project_id": "phylloconnect-sdk",
+    "storage_bucket": "phylloconnect-sdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127177212994:android:3c1afc967f66c78f6799db",
+        "android_client_info": {
+          "package_name": "com.example.flutter_sample_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127177212994-i3t32f312u2m7hnufp0h6mb269i58c0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0oJFH2GRLyrbofYFQPOEX3a6_vYX5nW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127177212994-i3t32f312u2m7hnufp0h6mb269i58c0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
